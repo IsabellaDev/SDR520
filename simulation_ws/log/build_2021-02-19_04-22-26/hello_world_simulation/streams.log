@@ -1,0 +1,69 @@
+[0.083s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake /home/ubuntu/environment/HelloWorld/simulation_ws/src/hello_world_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation
+[0.690s] -- The C compiler identification is GNU 7.5.0
+[1.038s] -- The CXX compiler identification is GNU 7.5.0
+[1.059s] -- Check for working C compiler: /usr/bin/cc
+[1.224s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.225s] -- Detecting C compiler ABI info
+[1.434s] -- Detecting C compiler ABI info - done
+[1.486s] -- Detecting C compile features
+[2.115s] -- Detecting C compile features - done
+[2.127s] -- Check for working CXX compiler: /usr/bin/c++
+[2.298s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.298s] -- Detecting CXX compiler ABI info
+[2.552s] -- Detecting CXX compiler ABI info - done
+[2.594s] -- Detecting CXX compile features
+[4.023s] -- Detecting CXX compile features - done
+[4.030s] -- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation/devel
+[4.030s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[4.031s] -- This workspace overlays: /opt/ros/melodic
+[4.060s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[4.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[4.061s] -- Using Debian Python package layout
+[4.061s] -- Using empy: /usr/bin/empy
+[4.350s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.351s] -- Call enable_testing()
+[4.356s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation/test_results
+[4.408s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.408s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.437s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.443s] -- Looking for pthread.h
+[4.607s] -- Looking for pthread.h - found
+[4.618s] -- Looking for pthread_create
+[4.743s] -- Looking for pthread_create - not found
+[4.744s] -- Looking for pthread_create in pthreads
+[4.866s] -- Looking for pthread_create in pthreads - not found
+[4.866s] -- Looking for pthread_create in pthread
+[5.002s] -- Looking for pthread_create in pthread - found
+[5.002s] -- Found Threads: TRUE  
+[5.007s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.125s] -- catkin 0.7.29
+[5.126s] -- BUILD_SHARED_LIBS is on
+[5.629s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[6.345s] -- Configuring done
+[6.443s] -- Generating done
+[6.480s] -- Build files have been written to: /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation
+[6.489s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake /home/ubuntu/environment/HelloWorld/simulation_ws/src/hello_world_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation
+[6.494s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation -- -j2 -l2
+[6.605s] [35m[1mScanning dependencies of target hello_world_simulation_xacro_generated_to_devel_space_[0m
+[6.629s] Built target hello_world_simulation_xacro_generated_to_devel_space_
+[6.664s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation -- -j2 -l2
+[7.006s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target tests -- -j2 -l2
+[7.124s] [35m[1mScanning dependencies of target tests[0m
+[7.143s] Built target tests
+[7.171s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target tests -- -j2 -l2
+[7.827s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target install -- -j2 -l2
+[8.052s] Built target hello_world_simulation_xacro_generated_to_devel_space_
+[8.139s] [36mInstall the project...[0m
+[8.164s] -- Install configuration: ""
+[8.165s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/lib/pkgconfig/hello_world_simulation.pc
+[8.166s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/cmake/hello_world_simulationConfig.cmake
+[8.166s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/cmake/hello_world_simulationConfig-version.cmake
+[8.167s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/package.xml
+[8.167s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/launch
+[8.169s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/launch/view_empty_world.launch
+[8.170s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/launch/empty_world.launch
+[8.171s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/launch/worldforge_world.launch
+[8.172s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/worlds
+[8.173s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/worlds/empty.world
+[8.174s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/hello_world_simulation/share/hello_world_simulation/rviz/turtlebot3_model.rviz
+[8.184s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/hello_world_simulation --target install -- -j2 -l2

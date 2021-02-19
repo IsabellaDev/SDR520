@@ -1,0 +1,93 @@
+[0.032s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake /home/ubuntu/environment/HelloWorld/simulation_ws/src/deps/turtlebot3-description-reduced-mesh -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh
+[0.631s] -- The C compiler identification is GNU 7.5.0
+[0.980s] -- The CXX compiler identification is GNU 7.5.0
+[1.001s] -- Check for working C compiler: /usr/bin/cc
+[1.158s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.160s] -- Detecting C compiler ABI info
+[1.423s] -- Detecting C compiler ABI info - done
+[1.459s] -- Detecting C compile features
+[2.059s] -- Detecting C compile features - done
+[2.068s] -- Check for working CXX compiler: /usr/bin/c++
+[2.269s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.270s] -- Detecting CXX compiler ABI info
+[2.584s] -- Detecting CXX compiler ABI info - done
+[2.609s] -- Detecting CXX compile features
+[3.931s] -- Detecting CXX compile features - done
+[3.938s] -- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh/devel
+[3.939s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[3.939s] -- This workspace overlays: /opt/ros/melodic
+[3.994s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.995s] -- Using Debian Python package layout
+[3.997s] -- Using empy: /usr/bin/empy
+[4.293s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.293s] -- Call enable_testing()
+[4.298s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh/test_results
+[4.349s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.350s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.379s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.385s] -- Looking for pthread.h
+[4.549s] -- Looking for pthread.h - found
+[4.550s] -- Looking for pthread_create
+[4.692s] -- Looking for pthread_create - not found
+[4.692s] -- Looking for pthread_create in pthreads
+[4.812s] -- Looking for pthread_create in pthreads - not found
+[4.812s] -- Looking for pthread_create in pthread
+[4.944s] -- Looking for pthread_create in pthread - found
+[4.944s] -- Found Threads: TRUE  
+[4.949s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.068s] -- catkin 0.7.29
+[5.068s] -- BUILD_SHARED_LIBS is on
+[5.572s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[6.119s] -- Configuring done
+[6.187s] -- Generating done
+[6.207s] -- Build files have been written to: /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh
+[6.221s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh' returned '0': /usr/bin/cmake /home/ubuntu/environment/HelloWorld/simulation_ws/src/deps/turtlebot3-description-reduced-mesh -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh
+[6.223s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh -- -j2 -l2
+[6.390s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh -- -j2 -l2
+[6.706s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh --target tests -- -j2 -l2
+[6.864s] [35m[1mScanning dependencies of target tests[0m
+[6.886s] Built target tests
+[6.910s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh --target tests -- -j2 -l2
+[7.109s] Invoking command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh --target install -- -j2 -l2
+[7.233s] [36mInstall the project...[0m
+[7.272s] -- Install configuration: ""
+[7.272s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/lib/pkgconfig/turtlebot3_description_reduced_mesh.pc
+[7.273s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/cmake/turtlebot3_description_reduced_meshConfig.cmake
+[7.274s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/cmake/turtlebot3_description_reduced_meshConfig-version.cmake
+[7.274s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/package.xml
+[7.275s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/launch
+[7.277s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/launch/spawn_turtlebot.launch
+[7.279s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes
+[7.280s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors
+[7.281s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/r200.jpg
+[7.282s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/astra.dae
+[7.346s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/astra.jpg
+[7.348s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/r200.dae
+[7.351s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/sensors/lds.stl
+[7.358s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels
+[7.359s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/left_tire.stl
+[7.368s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/right_tire.stl
+[7.378s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/right_tire_reduced.stl
+[7.379s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/wheels/left_tire_reduced.stl
+[7.381s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases
+[7.381s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base_reduced.stl
+[7.403s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/burger_base.stl
+[7.437s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base.stl
+[7.497s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_base_for_open_manipulator.stl
+[7.570s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_pi_base_for_open_manipulator.stl
+[7.634s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/waffle_base.stl
+[7.752s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/meshes/bases/burger_base_decimated.stl
+[7.757s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf
+[7.758s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger_for_autorace.gazebo.xacro
+[7.759s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi.gazebo.xacro
+[7.759s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger.urdf.xacro
+[7.760s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_for_open_manipulator.urdf.xacro
+[7.761s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/common_properties.xacro
+[7.762s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi_for_open_manipulator.urdf.xacro
+[7.772s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger_for_autorace.urdf.xacro
+[7.772s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle_pi.urdf.xacro
+[7.772s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle.urdf.xacro
+[7.772s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_waffle.gazebo.xacro
+[7.773s] -- Installing: /home/ubuntu/environment/HelloWorld/simulation_ws/install/turtlebot3_description_reduced_mesh/share/turtlebot3_description_reduced_mesh/urdf/turtlebot3_burger.gazebo.xacro
+[7.787s] Invoked command in '/home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh' returned '0': /usr/bin/cmake --build /home/ubuntu/environment/HelloWorld/simulation_ws/build/turtlebot3_description_reduced_mesh --target install -- -j2 -l2

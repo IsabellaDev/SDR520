@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.002182] (turtlebot3_description_reduced_mesh) JobQueued: {'identifier': 'turtlebot3_description_reduced_mesh', 'dependencies': OrderedDict()}
+[0.002268] (hello_world_robot) JobQueued: {'identifier': 'hello_world_robot', 'dependencies': OrderedDict([('turtlebot3_description_reduced_mesh', 'install/turtlebot3_description_reduced_mesh')])}
+[0.002335] (turtlebot3_description_reduced_mesh) JobStarted: {'identifier': 'turtlebot3_description_reduced_mesh'}
+[0.099411] (-) TimerEvent: {}
+[0.200239] (-) TimerEvent: {}
+[0.301588] (-) TimerEvent: {}
+[0.370322] (turtlebot3_description_reduced_mesh) JobEnded: {'identifier': 'turtlebot3_description_reduced_mesh', 'rc': 0}
+[0.372325] (hello_world_robot) JobStarted: {'identifier': 'hello_world_robot'}
+[0.408843] (-) TimerEvent: {}
+[0.516833] (-) TimerEvent: {}
+[0.594357] (hello_world_robot) JobEnded: {'identifier': 'hello_world_robot', 'rc': 0}
+[0.595416] (-) EventReactorShutdown: {}

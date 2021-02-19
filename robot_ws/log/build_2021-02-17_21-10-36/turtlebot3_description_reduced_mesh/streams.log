@@ -1,0 +1,61 @@
+[0.048s] Invoking command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake /home/ubuntu/environment/HelloWorld/robot_ws/src/deps/turtlebot3-description-reduced-mesh -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh
+[0.464s] -- The C compiler identification is GNU 7.5.0
+[0.727s] -- The CXX compiler identification is GNU 7.5.0
+[0.742s] -- Check for working C compiler: /usr/bin/cc
+[0.829s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.832s] -- Detecting C compiler ABI info
+[0.912s] -- Detecting C compiler ABI info - done
+[0.924s] -- Detecting C compile features
+[1.162s] -- Detecting C compile features - done
+[1.169s] -- Check for working CXX compiler: /usr/bin/c++
+[1.260s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.261s] -- Detecting CXX compiler ABI info
+[1.354s] -- Detecting CXX compiler ABI info - done
+[1.364s] -- Detecting CXX compile features
+[1.774s] -- Detecting CXX compile features - done
+[1.781s] -- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/devel
+[1.782s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.782s] -- This workspace overlays: /opt/ros/melodic
+[1.811s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.812s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.812s] -- Using Debian Python package layout
+[1.813s] -- Using empy: /usr/bin/empy
+[2.010s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.010s] -- Call enable_testing()
+[2.014s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/test_results
+[2.050s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.050s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.070s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.074s] -- Looking for pthread.h
+[2.176s] -- Looking for pthread.h - found
+[2.177s] -- Looking for pthread_create
+[2.260s] -- Looking for pthread_create - not found
+[2.260s] -- Looking for pthread_create in pthreads
+[2.327s] -- Looking for pthread_create in pthreads - not found
+[2.327s] -- Looking for pthread_create in pthread
+[2.406s] -- Looking for pthread_create in pthread - found
+[2.408s] -- Found Threads: TRUE  
+[2.414s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.493s] -- catkin 0.7.29
+[2.494s] -- BUILD_SHARED_LIBS is on
+[2.609s] -- Could NOT find gazebo_ros (missing: gazebo_ros_DIR)
+[2.609s] -- Could not find the required component 'gazebo_ros'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+[2.609s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+[2.610s]   Could not find a package configuration file provided by "gazebo_ros" with
+[2.610s]   any of the following names:
+[2.610s] 
+[2.610s]     gazebo_rosConfig.cmake
+[2.611s]     gazebo_ros-config.cmake
+[2.611s] 
+[2.611s]   Add the installation prefix of "gazebo_ros" to CMAKE_PREFIX_PATH or set
+[2.611s]   "gazebo_ros_DIR" to a directory containing one of the above files.  If
+[2.612s]   "gazebo_ros" provides a separate development package or SDK, be sure it has
+[2.612s]   been installed.
+[2.612s] Call Stack (most recent call first):
+[2.612s]   CMakeLists.txt:4 (find_package)
+[2.612s] 
+[2.612s] 
+[2.613s] -- Configuring incomplete, errors occurred!
+[2.613s] See also "/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/CMakeFiles/CMakeOutput.log".
+[2.613s] See also "/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/CMakeFiles/CMakeError.log".
+[2.617s] Invoked command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh' returned '1': /usr/bin/cmake /home/ubuntu/environment/HelloWorld/robot_ws/src/deps/turtlebot3-description-reduced-mesh -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh

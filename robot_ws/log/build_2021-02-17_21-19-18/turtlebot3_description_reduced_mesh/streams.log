@@ -1,0 +1,38 @@
+[0.032s] Invoking command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh': /usr/bin/cmake /home/ubuntu/environment/HelloWorld/robot_ws/src/deps/turtlebot3-description-reduced-mesh -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh
+[0.052s] -- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/devel
+[0.053s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[0.053s] -- This workspace overlays: /opt/ros/melodic
+[0.070s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.071s] -- Using Debian Python package layout
+[0.071s] -- Using empy: /usr/bin/empy
+[0.257s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.257s] -- Call enable_testing()
+[0.258s] -- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/test_results
+[0.277s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.277s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.293s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.300s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.347s] -- catkin 0.7.29
+[0.348s] -- BUILD_SHARED_LIBS is on
+[0.447s] -- Could NOT find gazebo_ros (missing: gazebo_ros_DIR)
+[0.448s] -- Could not find the required component 'gazebo_ros'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+[0.448s] CMake Error at /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+[0.448s]   Could not find a package configuration file provided by "gazebo_ros" with
+[0.448s]   any of the following names:
+[0.449s] 
+[0.449s]     gazebo_rosConfig.cmake
+[0.449s]     gazebo_ros-config.cmake
+[0.449s] 
+[0.449s]   Add the installation prefix of "gazebo_ros" to CMAKE_PREFIX_PATH or set
+[0.450s]   "gazebo_ros_DIR" to a directory containing one of the above files.  If
+[0.450s]   "gazebo_ros" provides a separate development package or SDK, be sure it has
+[0.450s]   been installed.
+[0.450s] Call Stack (most recent call first):
+[0.450s]   CMakeLists.txt:4 (find_package)
+[0.451s] 
+[0.451s] 
+[0.451s] -- Configuring incomplete, errors occurred!
+[0.451s] See also "/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/CMakeFiles/CMakeOutput.log".
+[0.451s] See also "/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh/CMakeFiles/CMakeError.log".
+[0.454s] Invoked command in '/home/ubuntu/environment/HelloWorld/robot_ws/build/turtlebot3_description_reduced_mesh' returned '1': /usr/bin/cmake /home/ubuntu/environment/HelloWorld/robot_ws/src/deps/turtlebot3-description-reduced-mesh -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/environment/HelloWorld/robot_ws/install/turtlebot3_description_reduced_mesh
